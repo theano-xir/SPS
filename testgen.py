@@ -41,7 +41,7 @@ def gen_pol_coef(x,y,degree=3):
     return coef
 
 def gen_sine_coef(x,y):
-    coef=2*(np.random.rand(2)*2-1)
+    coef=20*(np.random.rand(2)*2-1)
     coef[0]=y-coef[1]*math.sin(x)
     return coef
 
