@@ -90,5 +90,5 @@ ys+=gen_noise(20*len(types))
 view_data_segments(xs,ys)
 f= open("test.csv","w+")
 for i in range(len(xs)):
-    print("%f, %f\n" % (xs[i], ys[i]))
+    #print("%f, %f\n" % (xs[i], ys[i]))
     f.write("%f, %f\n" % (xs[i], ys[i]))
